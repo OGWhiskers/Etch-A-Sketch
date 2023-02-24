@@ -1,0 +1,13 @@
+.item {
+  width: 56px;
+  height: 56px;
+  border: solid 1px lightblue;
+}
+
+.grid-container {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+
+  width: 980px;
+}
