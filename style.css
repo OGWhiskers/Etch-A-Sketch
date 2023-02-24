@@ -1,6 +1,6 @@
 .item {
-  width: 56px;
-  height: 56px;
+  width: 36px;
+  height: 36px;
   border: solid 1px lightblue;
 }
 
@@ -9,5 +9,8 @@
   justify-content: center;
   flex-flow: row wrap;
 
-  width: 980px;
+  width: 620px;
+}
+.hover {
+  background-color: aqua;
 }
