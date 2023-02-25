@@ -2,6 +2,8 @@
   width: 36px;
   height: 36px;
   border: solid 1px lightblue;
+
+  transition: 0.8s;
 }
 
 .grid-container {
