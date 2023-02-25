@@ -6,6 +6,14 @@
   transition: 0.8s;
 }
 
+.item-reset {
+  transition: 0s;
+}
+.item-active,
+.item-eraser {
+  transition: 0.8s;
+}
+
 .grid-container {
   display: flex;
   justify-content: center;
@@ -15,4 +23,24 @@
 }
 .hover {
   background-color: aqua;
+}
+.btns {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 30px;
+}
+.btn {
+  padding: 8px;
+  border: solid 1px #176fb3;
+  border-radius: 10px;
+  background-color: #fff;
+
+  color: #176fb3;
+  transition: 0.8s;
+}
+.btn:hover {
+  border: solid 1px #fff;
+  background-color: #176fb3;
+  color: white;
 }

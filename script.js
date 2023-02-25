@@ -32,7 +32,8 @@ reset.addEventListener("click", function () {
   }
 });
 
-// Active
+// Active:
+
 activate.addEventListener("click", function () {
   for (let i = 0; i < divNodeList.length; i++) {
     divNodeList[i].addEventListener("mouseover", function hover() {
