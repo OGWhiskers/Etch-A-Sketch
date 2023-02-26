@@ -19,7 +19,11 @@
   justify-content: center;
   flex-flow: row wrap;
 
-  width: 620px;
+  max-width: 620px;
+  max-height: 620px;
+
+  min-width: 620px;
+  min-height: 620px;
 }
 .hover {
   background-color: aqua;
